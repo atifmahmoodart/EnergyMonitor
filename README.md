@@ -1,0 +1,2 @@
+# EnergyMonitor
+A software application that uses the Modbus package to obtain real-time energy monitor values. The application is scheduled to call the Modbus package at specific intervals to retrieve the latest values, which are then stored in a MongoDB database. Additionally, the application uses these values to push updates to an MQTT server. Overall, the application appears to be designed to collect and share real-time energy monitoring data using multiple technologies and software components.
